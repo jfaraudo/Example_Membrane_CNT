@@ -1,0 +1,120 @@
+loading history file ... 48 events added
+Main console display active (Tcl8.5.6 / Tk8.5.6)
+(input) 49 % set seleccio [atomselect top "same resid as (type OT and z>25"]
+atomselect: cannot parse selection text: same resid as (type OT and z>25
+>Main< (input) 50 % set seleccio [atomselect top "same resid as (type OT and z>25)"]
+atomselect0
+>Main< (input) 51 % $seleccio num
+891
+>Main< (input) 52 % set numwater [atomselect top "same resid as (type OT and z>25)"]
+atomselect1
+>Main< (input) 53 % $numwater num
+891
+>Main< (input) 54 % set totwater [atomselect top "same resid as (type OT and z>25)"]
+atomselect2
+>Main< (input) 55 % $totwater num
+891
+>Main< (input) 56 % set totwater [atomselect top "water"]
+atomselect3
+>Main< (input) 57 % $totwater num
+1584
+>Main< (input) 58 % set totwater [atomselect top "water and same resid as (type OT and z>27)"]
+atomselect4
+>Main< (input) 59 % set seleccio [atomselect top "water and same resid as (type OT and z>25)"]
+atomselect5
+>Main< (input) 60 % $seleccio num
+891
+>Main< (input) 61 % set seleccio [atomselect top "water and same resid as (type OT and z>27)"]
+atomselect6
+>Main< (input) 62 % $seleccio num
+801
+>Main< (input) 63 % set seleccio [atomselect top "water and same resid as (type OT and z>29)"]
+atomselect7
+>Main< (input) 64 % $seleccio num
+732
+>Main< (input) 65 % set seleccio [atomselect top "water and same resid as (type OT and z>28)"]
+atomselect8
+>Main< (input) 66 % $seleccio num
+771
+>Main< (input) 67 % set seleccio [atomselect top "water and same resid as (type OT and z>27.5)"]
+atomselect9
+>Main< (input) 68 % $seleccio num
+789
+>Main< (input) 69 % set seleccio [atomselect top "water and same resid as (type OT and z>27.75)"]
+atomselect10
+>Main< (input) 70 % $seleccio num
+783
+>Main< (input) 71 % set seleccio [atomselect top "water and same resid as (type OT and z>27.25)"]
+atomselect11
+>Main< (input) 72 % $seleccio num
+795
+>Main< (input) 73 % set seleccio [atomselect top "water and same resid as (type OT and z>27.27)"]
+atomselect12
+>Main< (input) 74 % $seleccio num
+795
+>Main< (input) 75 % set seleccio [atomselect top "water and same resid as (type OT and z>27.26)"]
+atomselect13
+>Main< (input) 76 % $seleccio num
+795
+>Main< (input) 77 % set seleccio [atomselect top "water and same resid as (type OT and z>27.256)"]
+atomselect14
+>Main< (input) 78 % $seleccio num
+795
+>Main< (input) 79 % set seleccio [atomselect top "water and same resid as (type OT and z>27.245)"]
+atomselect15
+>Main< (input) 80 % $seleccio num
+795
+>Main< (input) 81 % set seleccio [atomselect top "water and same resid as (type OT and z>27.24)"]
+atomselect16
+>Main< (input) 82 % $seleccio num
+795
+>Main< (input) 83 % set seleccio [atomselect top "water and same resid as (type OT and z>27.235)"]
+atomselect17
+>Main< (input) 84 % $seleccio num
+795
+>Main< (input) 85 % set seleccio [atomselect top "water and same resid as (type OT and z>27.23)"]
+atomselect18
+>Main< (input) 86 % $seleccio num
+795
+>Main< (input) 87 % set seleccio [atomselect top "water and same resid as (type OT and z>27.2)"]
+atomselect19
+>Main< (input) 88 % $seleccio num
+795
+>Main< (input) 89 % set seleccio [atomselect top "water and same resid as (type OT and z>27)"]
+atomselect20
+>Main< (input) 90 % $seleccio num
+801
+>Main< (input) 91 % set seleccio [atomselect top "water and same resid as (type OT and z>27.15)"]
+atomselect21
+>Main< (input) 92 % $seleccio num
+795
+>Main< (input) 93 % set seleccio [atomselect top "water and same resid as (type OT and z>27.14)"]
+atomselect22
+>Main< (input) 94 % $seleccio num
+798
+>Main< (input) 95 % set seleccio [atomselect top "water and same resid as (type OT and z>27.16)"]
+atomselect23
+>Main< (input) 96 % $seleccio num
+795
+>Main< (input) 97 % set seleccio [atomselect top "water and same resid as (type OT and z>27.17)"]
+atomselect24
+>Main< (input) 98 % $seleccio num
+795
+>Main< (input) 99 % set seleccio [atomselect top "water and same resid as (type OT and z>27.2)"]
+atomselect25
+>Main< (input) 100 % $seleccio num
+795
+>Main< (input) 101 % set seleccio [atomselect top "water and same resid as (type OT and z>27.3)"]
+atomselect26
+>Main< (input) 102 % $seleccio num
+795
+>Main< (input) 103 % set seleccio [atomselect top "water and same resid as (type OT and z>27.4)"]
+atomselect27
+>Main< (input) 104 % $seleccio num
+792
+>Main< (input) 105 % $seleccio moveby {0 0 -54}
+>Main< (input) 106 % set seleccio [atomselect top all]
+atomselect28
+>Main< (input) 107 % measure minmax $seleccio
+{-12.675999641418457 -9.907999992370605 -27.30500030517578} {12.675999641418457 9.916999816894531 27.590999603271484}
+>Main< (input) 108 % 
