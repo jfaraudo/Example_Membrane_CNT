@@ -1,0 +1,8 @@
+loading history file ... 48 events added
+Main console display active (Tcl8.5.6 / Tk8.5.6)
+(input) 49 % set seleccio [atomselect top "carbon"]
+atomselect0
+>Main< (input) 50 % $seleccio num
+576
+>Main< (input) 51 % $seleccio set beta 1
+>Main< (input) 52 % 
