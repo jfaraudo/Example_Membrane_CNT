@@ -1,1 +1,3 @@
-Case 2 updated 2025
+# Simulation case 2: 
+Transport of water across a CNT membrane
+Updated May 2025
